@@ -1,0 +1,119 @@
+{
+    "$schema":  "https://aka.ms/winget-packages.schema.2.0.json",
+    "Sources":  [
+                    {
+                        "Packages":  [
+                                         {
+                                             "PackageIdentifier":  "Docker.DockerDesktop"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Git.Git"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "PostgreSQL.PostgreSQL.17"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "TeamViewer.TeamViewer"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Wondershare.UniConverter.17"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "RARLab.WinRAR"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "EclipseAdoptium.Temurin.21.JDK"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "BlenderFoundation.Blender"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "GitHub.cli"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "OSGeo.QGIS_LTR"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Adobe.Acrobat.Pro"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "OpenJS.NodeJS.LTS"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "OBSProject.OBSStudio"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Trimble.SketchUp.2023"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "LacunaSoftware.WebPKI"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Python.Launcher"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "SatoshiLabs.trezor-suite"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "ByteDance.CapCut"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Gyan.FFmpeg"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Kitware.CMake"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Wondershare.Filmora"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Zoom.Zoom.EXE"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "astral-sh.uv"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Balena.Etcher"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "jqlang.jq"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.VisualStudioCode"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Python.Python.3.11"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Anthropic.Claude"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.WindowsTerminal"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "OpenAI.ChatGPT"
+                                         }
+                                     ],
+                        "SourceDetails":  {
+                                              "Argument":  "https://cdn.winget.microsoft.com/cache",
+                                              "Identifier":  "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                                              "Name":  "winget",
+                                              "Type":  "Microsoft.PreIndexed.Package"
+                                          }
+                    },
+                    {
+                        "Packages":  [
+                                         {
+                                             "PackageIdentifier":  "XP8CF6S8G2D5T6"
+                                         }
+                                     ],
+                        "SourceDetails":  {
+                                              "Argument":  "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+                                              "Identifier":  "StoreEdgeFD",
+                                              "Name":  "msstore",
+                                              "Type":  "Microsoft.Rest"
+                                          }
+                    }
+                ],
+    "WinGetVersion":  "1.29.380"
+}

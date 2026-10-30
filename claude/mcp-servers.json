@@ -1,0 +1,26 @@
+{
+    "meta-official":  {
+                          "type":  "http",
+                          "url":  "https://mcp.facebook.com/ads"
+                      },
+    "rea":  {
+                "command":  "cmd.exe",
+                "args":  [
+                             "/d",
+                             "/c",
+                             "npx",
+                             "-y",
+                             "rea-agents@6.7.0",
+                             "mcp"
+                         ],
+                "env":  {
+                            "GHIDRA_INSTALL_DIR":  "C:\\tools\\ghidra_12.1.4_PUBLIC",
+                            "JAVA_HOME":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot",
+                            "REA_ANALYSIS_PROVIDER":  "ghidra"
+                        }
+            },
+    "composio":  {
+                     "type":  "http",
+                     "url":  "https://connect.composio.dev/mcp"
+                 }
+}

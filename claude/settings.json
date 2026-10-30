@@ -1,0 +1,74 @@
+{
+    "env":  {
+                "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE":  "80"
+            },
+    "enabledPlugins":  {
+                           "fal-ai@fal-ai-skills":  true,
+                           "frontend-design@anthropic-plugin-directory":  true,
+                           "superpowers@anthropic-plugin-directory":  true,
+                           "context7@anthropic-plugin-directory":  true,
+                           "code-review-anthropics@anthropic-plugin-directory":  true,
+                           "playwright@anthropic-plugin-directory":  true,
+                           "security-guidance@anthropic-plugin-directory":  true,
+                           "claude-md-management@anthropic-plugin-directory":  true,
+                           "serena@anthropic-plugin-directory":  true,
+                           "supabase@anthropic-plugin-directory":  true,
+                           "claude-code-setup@claude-plugins-official":  true,
+                           "caveman@caveman":  true,
+                           "marketing-skills@marketingskills":  true,
+                           "social-media-skills@social-media-skills":  true,
+                           "makerskills@makerskills":  true,
+                           "composio@composio":  false,
+                           "firecrawl@claude-plugins-official":  true,
+                           "claude-mem@thedotmack":  true
+                       },
+    "extraKnownMarketplaces":  {
+                                   "fal-ai-skills":  {
+                                                         "source":  {
+                                                                        "source":  "github",
+                                                                        "repo":  "morozovdd/fal-ai-skill"
+                                                                    }
+                                                     },
+                                   "caveman":  {
+                                                   "source":  {
+                                                                  "source":  "github",
+                                                                  "repo":  "JuliusBrussee/caveman"
+                                                              }
+                                               },
+                                   "marketingskills":  {
+                                                           "source":  {
+                                                                          "source":  "github",
+                                                                          "repo":  "coreyhaines31/marketingskills"
+                                                                      }
+                                                       },
+                                   "social-media-skills":  {
+                                                               "source":  {
+                                                                              "source":  "github",
+                                                                              "repo":  "charlie947/social-media-skills"
+                                                                          }
+                                                           },
+                                   "makerskills":  {
+                                                       "source":  {
+                                                                      "source":  "github",
+                                                                      "repo":  "coreyhaines31/makerskills"
+                                                                  }
+                                                   },
+                                   "composio":  {
+                                                    "source":  {
+                                                                   "source":  "github",
+                                                                   "repo":  "ComposioHQ/composio-plugin-cc"
+                                                               }
+                                                },
+                                   "thedotmack":  {
+                                                      "source":  {
+                                                                     "source":  "github",
+                                                                     "repo":  "thedotmack/claude-mem"
+                                                                 }
+                                                  }
+                               },
+    "autoUpdatesChannel":  "latest",
+    "theme":  "auto",
+    "autoCompactEnabled":  true,
+    "switchModelsOnFlag":  true,
+    "agentPushNotifEnabled":  true
+}

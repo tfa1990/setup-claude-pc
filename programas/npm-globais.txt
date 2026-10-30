@@ -1,0 +1,6 @@
+@anthropic-ai/claude-code
+firecrawl-cli
+hyperframes
+ironfish
+omniroute
+rea-agents
